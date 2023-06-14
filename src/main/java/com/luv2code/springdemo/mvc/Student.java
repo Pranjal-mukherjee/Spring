@@ -1,13 +1,14 @@
 package com.luv2code.springdemo.mvc;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 //step1 creating a student class
 public class Student {
     private String firstName;
     private String lastName;
     private String country;
-   private LinkedHashMap<String , String> countryOptions;
+   private Map<String , String> countryOptions;
     public Student(){
 //        populate country options : used ISO country code
         countryOptions = new LinkedHashMap<>();
@@ -43,7 +44,7 @@ public class Student {
         this.country = country;
     }
 
-    public LinkedHashMap<String, String> getCountryOptions() {
+    public Map<String, String> getCountryOptions() {
         return countryOptions;
         //when form will be loaded spring will call this
     }

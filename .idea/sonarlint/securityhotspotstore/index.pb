@@ -3,12 +3,6 @@ m
 =src/main/java/com/luv2code/springdemo/mvc/HomeController.java,5\f\5f0526c5da9860a4c7aacf387f5a56b687bd19fc
 [
 +src/main/webapp/WEB-INF/view/helloworld.jsp,8\c\8cd1668f40a2b6e1a049eac3f450590343b7a053
-`
-0src/main/webapp/WEB-INF/view/helloworld-form.jsp,a\f\af3f259e9193b1fdbde69ab492f79e805b9bc3bd
-s
-Csrc/main/java/com/luv2code/springdemo/mvc/HelloWorldController.java,3\6\36d0f6840df7c0040fe4b8fc1d0d650d62af40d8
-p
-@src/main/java/com/luv2code/springdemo/mvc/StudentController.java,c\5\c5cb8a73d2f88119a9a21e13932afef9f60bd3a0
 ]
 -src/main/webapp/WEB-INF/view/student-form.jsp,0\e\0eb670f9b16e23f0d81306f45e7c9c981a4e630a
 O
@@ -21,10 +15,6 @@ Z
 *src/main/webapp/WEB-INF/view/main-menu.jsp,3\8\38ad2c32d711f144bf7f7b487adde6857db0e072
 f
 6src/main/webapp/WEB-INF/view/customer-confirmation.jsp,d\4\d48a40afc760ee02c66deebec3d0a6ceb4750ca4
-c
-3src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml,8\e\8e8cc9023d855b1b0dc9094aa3ff6015a19929de
-f
-6src/main/java/com/luv2code/springdemo/mvc/Student.java,b\0\b01bd16a3722316438eb4d3a1ea19390cd64bb36
 g
 7src/main/java/com/luv2code/springdemo/mvc/Customer.java,a\f\af03ecb897d042dbc38ff256f7a2f8d2300fd578
 n

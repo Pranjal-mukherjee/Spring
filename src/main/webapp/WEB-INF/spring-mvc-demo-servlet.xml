@@ -23,8 +23,7 @@
         <property name="prefix" value="/WEB-INF/view/" />
         <property name="suffix" value=".jsp" />
     </bean>
-    <!-- Configure a validator bean -->
-<!--    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />-->
+
 
 
 </beans>
