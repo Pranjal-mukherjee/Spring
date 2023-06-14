@@ -1,6 +1,7 @@
 package com.luv2code.springdemo.mvc;
 
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -12,6 +13,7 @@ import javax.validation.*;
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {
+    private static final Logger logger = LoggerFactory.getLogger(CustomerController.class);
     @RequestMapping("/showForm")
     public String showForm(Model theModel) {
         theModel.addAttribute("customer", new Customer());
@@ -22,7 +24,8 @@ public class CustomerController {
     public String processForm(
             @Valid @ModelAttribute("customer") Customer theCustomer, BindingResult theBindingResult
     ) {
-        System.err.println("Last name : " + theCustomer.getLastName());
+        logger.info("LastName: |{}|", theCustomer.getLastName());
+        logger.info("Binding result: {}", theBindingResult);
         //spring willl store results of validation in binding result object
         if (theBindingResult.hasErrors()) {
             return "customer-form";
