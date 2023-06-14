@@ -22,7 +22,7 @@ public class CustomerController {
     public String processForm(
             @Valid @ModelAttribute("customer") Customer theCustomer, BindingResult theBindingResult
     ) {
-        System.out.println("Last name : " + theCustomer.getLastName());
+        System.err.println("Last name : " + theCustomer.getLastName());
         //spring willl store results of validation in binding result object
         if (theBindingResult.hasErrors()) {
             return "customer-form";
